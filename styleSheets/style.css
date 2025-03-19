@@ -36,11 +36,11 @@ nav ul li:hover{
 
 
 header{
-    background-image: url(../images/sketch.jpg);
+    background-image: url(../images/sign.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:500%;
-    height: 300px;
-    color: red;
+    background-position:0;
+    height: 200px;
+    color: white;
     border: 1px solid blue;
 }
