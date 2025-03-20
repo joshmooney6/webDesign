@@ -2,6 +2,8 @@ nav{
     background-color: gray;
     padding: 5px;
     border: 3px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav ul{
@@ -26,7 +28,7 @@ nav ul li a{
 }
 
 nav ul li:hover{
-    background-color: gray;
+    background-color: lightgray;
 }
 
 #active{
@@ -36,11 +38,110 @@ nav ul li:hover{
 
 
 header{
-    background-image: url(../images/sign.jpg);
+    background-image: url(../images/lalal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:0;
-    height: 200px;
+    background-position:100%;
+    color: red;
+    border: 1px solid black;
+    height: 300px;
+}
+
+header img{
+    float: left; margin-right: 2em;
+    width: 150px;
+}
+
+h2{
+    padding-right: 35%;
+    text-align: right;
+}
+
+h3{
+    padding-left: 10%;
+}
+
+main{
+    float: left;
+    width: 80%;
+    border: 1px solid gray;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.col_detail{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    column-rule-color: black;
+}
+
+.col_detail img{
+    width: 100%;
+}
+
+.history_pics{
+    padding: 1%;
+    margin: 1%;
+    border: solid 3px black;
+}
+
+.history_pics img{
+    height: 300px;
+}
+
+aside{
+    float: right;
+    width: 19%;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: justify;
+    list-style-type: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    background-color: rgb(170, 170, 170);
+}
+
+aside h2{
+    text-align: left;
+    padding-left: 18%;
+}
+
+aside section{
+    text-align: left;
+    padding-left: 10%;
+}
+
+aside li a{
+    text-decoration: none;
+    color: rgb(90, 101, 255);
+}
+
+footer ul li a{
+    text-decoration: none;
     color: white;
-    border: 1px solid blue;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+footer{
+    clear: both;
+    border: 3px solid black;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    color: white;
 }
