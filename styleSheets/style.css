@@ -71,6 +71,12 @@ body{
     background-color: lightgray;
 }
 
+article{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
 .col_detail{
     column-count: 3;
     column-rule: 1px solid white;
@@ -91,6 +97,20 @@ body{
 
 .history_pics img{
     height: 300px;
+}
+
+
+#map h2{
+    text-align: justify;
+    padding-left: 15%;
+}
+
+#map iframe{
+    padding-left: 15%;
+}
+
+#video iframe{
+    padding-left: 35%;
 }
 
 aside{
